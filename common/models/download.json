@@ -1,0 +1,49 @@
+{
+  "name": "download",
+  "plural": "downloads",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "status": {
+      "type": "string",
+      "required": true,
+      "default": "new"
+    },
+    "name": {
+      "type": "string",
+      "required": false,
+      "default": "New Download"
+    },
+    "files": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "size": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "dlcount": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "url": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "date",
+      "required": true,
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

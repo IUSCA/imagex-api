@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mdb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/lb",
+    "database": "lb",
+    "password": "",
+    "name": "mdb",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
