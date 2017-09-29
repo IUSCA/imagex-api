@@ -39,11 +39,7 @@
     "dataSource": "mdb",
     "public": true
   },
-  "download": {
-    "dataSource": "mdb",
-    "public": true
-  },
-  "ilab": {
+  "process": {
     "dataSource": "mdb",
     "public": true
   }

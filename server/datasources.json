@@ -6,8 +6,8 @@
   "mdb": {
     "host": "localhost",
     "port": 27017,
-    "url": "mongodb://localhost:27017/lb",
-    "database": "lb",
+    "url": "mongodb://localhost:27017/imagex",
+    "database": "imagex",
     "password": "",
     "name": "mdb",
     "user": "",

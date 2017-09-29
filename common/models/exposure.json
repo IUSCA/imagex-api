@@ -12,16 +12,39 @@
       "required": true,
       "default": "\"string\""
     },
-    "infofile": {
+    "header": {
       "type": "object"
     },
     "size": {
       "type": "number",
       "default": 0
     },
-    "path": {
+    "filter": {
       "type": "string",
-      "required": true
+      "default": "\"Unknown\""
+    },
+    "ra0": {
+      "type": "number",
+      "default": 0
+    },
+    "dec0": {
+      "type": "number",
+      "default": 0
+    },
+    "height": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "width": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "pixelscale": {
+      "type": "number",
+      "required": true,
+      "default": 0
     }
   },
   "validations": [],

@@ -1,5 +1,5 @@
 {
-  "name": "emc-api",
+  "name": "imagex-api",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
@@ -31,5 +31,5 @@
     "url": ""
   },
   "license": "UNLICENSED",
-  "description": "emc-api"
+  "description": "imagex-api"
 }
