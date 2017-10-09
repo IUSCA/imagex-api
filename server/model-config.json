@@ -14,25 +14,26 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mdb",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mdb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mdb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mdb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mdb",
     "public": false
   },
   "exposure": {
@@ -40,6 +41,10 @@
     "public": true
   },
   "process": {
+    "dataSource": "mdb",
+    "public": true
+  },
+  "user": {
     "dataSource": "mdb",
     "public": true
   }
