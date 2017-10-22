@@ -4,9 +4,9 @@
     "connector": "memory"
   },
   "mdb": {
-    "host": "localhost",
+    "host": "imagex-mongodb",
     "port": 27017,
-    "url": "mongodb://localhost:27017/imagex",
+    "url": "mongodb://imagex-mongodb:27017/imagex",
     "database": "imagex",
     "password": "",
     "name": "mdb",
