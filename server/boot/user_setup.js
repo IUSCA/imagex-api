@@ -18,7 +18,7 @@ module.exports = function(app) {
         });
     };
 
-    User.findOrCreate({ where: {email: 'youngmd@iu.edu'} }, {username: 'Admin', email: 'youngmd@iu.edu', password: 'admin'}, function(err, user) {
+    User.findOrCreate({ where: {email: 'admin@imagex.sca'} }, {username: 'Admin', email: 'admin@imagex.sca', password: 'admin'}, function(err, user) {
         if (err){
             console.log(err);
         } else {

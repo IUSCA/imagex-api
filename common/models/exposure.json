@@ -12,6 +12,10 @@
       "required": true,
       "default": "\"string\""
     },
+    "owner": {
+      "type": "string",
+      "default": "public"
+    },
     "header": {
       "type": "object"
     },
