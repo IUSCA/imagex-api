@@ -1,2 +1,2 @@
-# emca-api
-Loopback API for EMCenter Archive
+# imagex-api
+Loopback API for ImageX
