@@ -1,0 +1,15 @@
+Username: <%= uid %>
+
+Submitted: <%= new Date(locals.date) %>
+<% if (locals.answers) { %>
+Answers:
+<% answers.forEach(function(a) { %>
+    <%= a.question %> : <%= a.answer -%>
+<% }); } %>
+
+<% if (locals.systems) { %>
+System Scores:
+<% systems.forEach(function(s) { %>
+     <%= s.label %> : <%= s.match %>%<% -%>
+<% }); } %>
+
