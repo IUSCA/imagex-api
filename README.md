@@ -1,2 +1,2 @@
 # imagex-api
-Loopback API for ImageX
+API for ImageX
