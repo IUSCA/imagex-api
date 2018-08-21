@@ -7,6 +7,7 @@ var winston = require('winston');
 
 //mine
 var config = require('../../imagex-config/api/config.js')(winston);
+var const = require('../common');
 var logger = new winston.Logger(config.logger.winston);
 var db = require('../models');
 
