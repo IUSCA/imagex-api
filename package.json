@@ -19,7 +19,7 @@
     "jsonwebtoken": "^8.2.1",
     "mongoose": "^5.1.0",
     "nodemailer": "~1.5.0",
-    "request": "~2.63.0",
+    "request": "~2.88.0",
     "winston": "~1.0.1",
     "passport": "^0.4.0",
     "passport-local": "*",
